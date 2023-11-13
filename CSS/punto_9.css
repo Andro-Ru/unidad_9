@@ -1,0 +1,22 @@
+/*Dar estilo a todo el documento*/
+* {
+    font-family: Century Gothic
+}
+/*Estilo tabla*/
+td{
+    border: 1px solid black;
+}
+th{
+    border: 1px solid black;
+    color: red;
+    font-weight: 175%;
+}
+table {
+    background-color: rgb(255, 255, 113);
+    width: 7;
+}
+/*Estilo parrafo*/
+#autoria {
+    color: #ff8c65;
+    font-family: sans-serif
+}

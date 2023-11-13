@@ -1,0 +1,27 @@
+/*Poner formato a todo el documento*/
+* {
+    font-family: Century Gothic;
+}
+/*Estilo lista*/
+ul {
+    background-color: #d6b7db;
+    cursor: pointer;
+    list-style-type: none;
+    padding: 2%;
+    text-align: justify;
+}
+
+li {
+    display: inline;
+    color: #ffffff;
+}
+
+/*Con el comando li-hover puedo configurarlo para que al momento de pasar el cursor se cambie de color*/
+li:hover {
+    background-color: #0000ff;
+    padding: 2%;
+}
+
+#autoria {
+    color: #ffa588;
+}

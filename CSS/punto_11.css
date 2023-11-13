@@ -1,0 +1,154 @@
+  /*Estilos general*/
+  * {
+      background-color: #b4b6d4;
+      font-family: century gothic;
+  }
+
+  b {
+      color: #04017c;
+  }
+
+  div {
+      text-align: center;
+      font-size: 18px;
+      font-weight: 100;
+  }
+
+  #contenedor_1 {
+      text-align: center;
+      height: 300px;
+  }
+
+  #contenedor_2 {
+      text-align: center;
+      height: 300px;
+  }
+
+  /*Estilos tablas*/
+  table {
+      width: 20cm;
+      height: 10cm;
+      margin: auto;
+  }
+
+  td {
+      border: 1px solid #000000;
+      vertical-align: middle;
+  }
+
+  th {
+      color: #ffffff;
+      background-color: #04017c;
+      border: 1px solid #000000;
+      font-weight: 175%;
+  }
+
+  /*Estilos a las animaciones*/
+  #animacion_1 {
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      position: relative;
+      background-color: #9FBB73;
+      animation-name: primera;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+  }
+
+  /*Se reemplazó el comando left o right por el comando trasnform:translate para ayudarme a ajustar la animacion dentro de la tabla*/
+  @keyframes primera {
+      0% {
+          background-color: #EC8F5E;
+          transform: translate(0px, 0px);
+      }
+
+      25% {
+          background-color: aliceblue;
+          transform: translate(70px, 0px)
+      }
+
+      50% {
+          background-color: #F3B664;
+          transform: translate(70px, 200px);
+      }
+
+      75% {
+          background-color: #f0ffff;
+          transform: translate(0px, 200px);
+      }
+
+      100% {
+          background-color: #F1EB90;
+          transform: translate(0px, 0px);
+      }
+  }
+
+  #animacion_2 {
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      position: relative;
+      background-color: #9FBB73;
+      animation-name: segunda;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+  }
+
+  @keyframes segunda {
+      0% {
+          background-color: #EC8F5E;
+          transform: translate(0px, 0px);
+      }
+
+      25% {
+          background-color: #ffc0cb;
+          transform: translate(0px, 70px);
+      }
+
+      50% {
+          background-color: #F1EB90;
+          transform: translate(70px, 70px);
+      }
+
+      75% {
+          background-color: #FECDA6;
+          transform: translate(70px, 0px);
+      }
+
+      100% {
+          background-color: #FECDA6;
+          transform: translate(0px, 0px);
+      }
+  }
+  #animación_3 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: #9FBB73;
+    animation-name: tercera;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes tercera{
+    0% {
+        background-color: #EC8F5E;
+        transform: translate(0px,0px);
+    }
+    25% {
+        background-color: #ffc0cb;
+        transform: translate(70px, 0px);
+    }
+    50% {
+        background-color: #F1EB90;
+        transform: translate(70px, 70px);
+    }
+    75% {
+        background-color: #FECDA6;
+        transform: translate(0px, 70px);
+    }
+    100% {
+        background-color: #FECDA6;
+        transform: translate(0px, 0px);
+    }
+}

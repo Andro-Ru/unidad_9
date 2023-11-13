@@ -1,0 +1,34 @@
+/*Estilo breadcrumb*/
+* {
+    font-family: Century Gothic;
+}
+.breadcrumb {
+    background-color: #FAF8ED;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+
+.breadcrumb-item {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.breadcrumb-item.active {
+    color: #748E63; 
+    font-weight: bold;
+}
+
+.breadcrumb-item a {
+    color: #99B080;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/* Cambia el color del enlace al pasar el ratón sobre él */
+.breadcrumb-item a:hover {
+    color: #F9B572;
+}
+#autoria {
+    background-color: #000070f3;
+    color:#FAF8ED ;
+}

@@ -1,0 +1,28 @@
+/*Añadir formato a todo el documento en general*/
+* {
+    font-family: Century Gothic;
+}
+
+/*Estilos de enlaces*/
+body {
+    background-color: #a2bbae7a;
+}
+h1 {
+    color: #da458ac2;
+}
+
+.enlace_1 {
+    color: rgb(13, 0, 133);
+    font-weight: 195%;
+}
+
+.enlace_2 {
+    color: rgb(80, 11, 80);
+    font-weight: 195%;
+}
+
+.autoria {
+    color: ##1c1c1c;
+    font-weight: 195%;
+    margin: 12 px;
+}
